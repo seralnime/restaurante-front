@@ -223,7 +223,6 @@ document.getElementById('comprar').addEventListener('click', async () => {
         id: inputCedula,
         order_id: orderId,
         product_id: productosOrden,
-        quantity: 0,
         estado: 'en proceso'
     };
 

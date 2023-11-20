@@ -1,9 +1,6 @@
 
 
-function cambiarEstado(span) {
-  span.classList.toggle('proceso');
-  span.classList.toggle('entregado');
-}
+
 document.addEventListener('DOMContentLoaded', () => {
   fetch('http://127.0.0.1:8000/api/orders')
     .then(response => response.json())
