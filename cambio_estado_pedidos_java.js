@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       data.forEach(order => {
         const cedulaSpan = document.createElement('span');
-        cedulaSpan.textContent = order.cedula;
+        cedulaSpan.textContent = order.id;
         cedulaDiv.appendChild(cedulaSpan);
 
         const estadoSpan = document.createElement('span');
