@@ -5,7 +5,7 @@ async function consultarEstado() {
     const estadoContainer = document.getElementById('estado-container');
 
     try {
-        const response = await fetch(`http://127.0.0.1:8000/api/orders${cedulaInput}`); // Reemplaza 'URL_DE_TU_API_AQUI' con la URL real de tu API
+        const response = await fetch(`http://127.0.0.1:8000/api/orders/${cedulaInput}`); // Reemplaza 'URL_DE_TU_API_AQUI' con la URL real de tu API
 
         if (!response.ok) {
             throw new Error('No se pudo obtener la información');
